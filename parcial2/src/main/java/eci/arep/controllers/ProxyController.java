@@ -58,8 +58,8 @@ public class ProxyController {
     private static List<String> instanceServersList() {
         List<String> rta = new ArrayList<>();
         useServer = new ArrayList<>();
-        if (false){
-            rta.add("https://ec2-34-229-24-87.compute-1.amazonaws.com:4567/");
+        if (true){
+            rta.add("https://ec2-34-228-221-176.compute-1.amazonaws.com:4567/");
             useServer.add(false);
             rta.add("https://ec2-34-229-24-87.compute-1.amazonaws.com:4568/");
             useServer.add(false);
