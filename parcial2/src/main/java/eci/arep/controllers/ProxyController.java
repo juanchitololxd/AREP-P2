@@ -59,9 +59,9 @@ public class ProxyController {
         List<String> rta = new ArrayList<>();
         useServer = new ArrayList<>();
         if (true){
-            rta.add("https://ec2-34-228-221-176.compute-1.amazonaws.com:4567/");
+            rta.add("https://ec2-34-228-221-176.compute-1.amazonaws.com:4567/"); //server1
             useServer.add(false);
-            rta.add("https://ec2-34-229-24-87.compute-1.amazonaws.com:4568/");
+            rta.add("https://ec2-54-211-90-123.compute-1.amazonaws.com:4568/"); //server2
             useServer.add(false);
         }else {
             rta.add("http://localhost:4567/");
