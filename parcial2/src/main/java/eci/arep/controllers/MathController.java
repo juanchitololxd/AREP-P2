@@ -18,7 +18,7 @@ public class MathController {
             res.header("ContentType", "application/json");
 
             return "{\"operation\": \"Secuencia de Lucas\", \"output\": \"" +
-                    seq + "\"input\": \"" +
+                    seq + ",\"input\": \"" +
                     limit + "\"}";
         });
     }
